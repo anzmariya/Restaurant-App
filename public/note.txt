@@ -1,0 +1,34 @@
+backend
+---------------
+)install redux toolkit- install the 2 commands
+
+)create redux folder in src
+)create js file(store) in redux
+
+)store.js by default:
+import { configureStore } from "@reduxjs/toolkit";
+
+const store = configureStore({
+    reducer:{
+
+    }
+})
+
+export default store
+
+)index.js:give provider
+
+)create a slice name restaurantSlice.js
+
+)restaurantSlice.js:
+import { createSlice } from "@reduxjs/toolkit";
+
+const restaurantSlice = createSlice({
+    name : 'restairantList',
+    initialState:{}
+})
+export default restaurantSlice;
+
+)create thunk
+
+)install axios
